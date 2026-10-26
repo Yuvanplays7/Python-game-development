@@ -5,4 +5,9 @@ def char_frequency(s):
         frequencies[character] = frequencies.get(character, 0) + 1
 
     print(frequencies)
-char_frequency("string")   
+
+def get_user_string():
+    return input("Enter a string: ")
+
+
+char_frequency(get_user_string())
