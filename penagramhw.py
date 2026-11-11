@@ -9,7 +9,7 @@ def number_penagram(s):
         if dictionary_number[number] == 0 :
             return False
 
-        return True
+    return True
 numbers = input("Enter a number from 0-9" )
 if number_penagram(numbers):
     print("number_penagram")
